@@ -17,6 +17,8 @@ def main():
     carry.sort(reverse=True)
     print(f"max_calorie = {max(carry)}")
     print(f"sum top 3 = {sum(carry[:3])}")
+    fd.close()
+
     return
 
 if __name__ == "__main__":
